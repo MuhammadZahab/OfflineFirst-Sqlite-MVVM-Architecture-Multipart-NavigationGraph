@@ -2,7 +2,9 @@
     <string name="app_name">Assessment</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="calling_list">Calling</string>
-    <string name="buying_list">Buying</string>
-    <string name="selling_list">Selling</string>
+    <string name="anime_list">Anime</string>
+    <string name="btn_upload_picture">Upload</string>
+    <string name="btn_select_picture">Select</string>
+
+
 </resources>

@@ -3,36 +3,21 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/homeFragment">
+    app:startDestination="@id/animeFragment">
+
 
     <fragment
-        android:id="@+id/homeFragment"
-        android:name="com.example.assessment.presentation.home.HomeFragment"
-        android:label="Home"
-        tools:layout="@layout/fragment_home">
-        <action
-            android:id="@+id/action_homeFragment_to_buyingFragment"
-            app:destination="@id/buyingFragment" />
-        <action
-            android:id="@+id/action_homeFragment_to_sellingFragment"
-            app:destination="@id/sellingFragment" />
-        <action
-            android:id="@+id/action_homeFragment_to_callingFragment"
-            app:destination="@id/callingFragment" />
-    </fragment>
+        android:id="@+id/animeFragment"
+        android:name="com.assessment.todo.ui.anime.AnimeListFragment"
+        android:label="Anime List"
+        tools:layout="@layout/fragment_anime" />
+
     <fragment
-        android:id="@+id/buyingFragment"
-        android:name="com.example.assessment.presentation.buying.BuyingFragment"
-        android:label="Buying List"
-        tools:layout="@layout/fragment_buying" />
-    <fragment
-        android:id="@+id/callingFragment"
-        android:name="com.example.assessment.presentation.calling.CallingFragment"
-        android:label="Calling List"
-        tools:layout="@layout/fragment_calling" />
-    <fragment
-        android:id="@+id/sellingFragment"
-        android:name="com.example.assessment.presentation.selling.SellingFragment"
-        android:label="Selling List"
-        tools:layout="@layout/fragment_selling" />
+        android:id="@+id/pictureFragment"
+        android:name="com.assessment.todo.ui.upload_pic.PictureFragment"
+        android:label="Upload Picture"
+        tools:layout="@layout/fragment_picture" />
+
+
+
 </navigation>

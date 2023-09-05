@@ -12,11 +12,11 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:name="com.example.assessment.application.ApplicationClass"
+        android:name="com.assessment.todo.application.MyApplication"
         android:theme="@style/Theme.Assessment"
         tools:targetApi="31">
         <activity
-            android:name="com.example.assessment.presentation.MainActivity"
+            android:name="com.assessment.todo.ui.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
